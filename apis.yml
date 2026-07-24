@@ -1,7 +1,26 @@
 aid: carsome
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carsome.png
 name: Carsome
-description: Carsome is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Carsome is Southeast Asia's largest integrated used-car e-commerce platform,
+  founded in 2015 and headquartered in Kuala Lumpur, Malaysia, with operations across
+  Malaysia, Indonesia, Thailand, and Singapore. The company runs an online marketplace
+  where consumers can sell, buy, and finance pre-owned vehicles, combining a consumer-facing
+  storefront with B2B dealer auctions, vehicle inspection and certification, logistics,
+  insurance, and financing services. Carsome is a venture-backed technology company
+  (a regional unicorn) counted among the portfolio of 500 Global. No public developer
+  program, API documentation, or API surface has been found; this profile remains a
+  company/lead record awaiting any published API.
 url: https://raw.githubusercontent.com/api-evangelist/carsome/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Automotive
+- E-Commerce
+- Marketplace
+- Used Cars
+- Automotive Finance
+- Southeast Asia
+- Malaysia
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/carsome-domain-security.yml
 - type: Website
-  url: https://carsome.my
+  url: https://www.carsome.my
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
