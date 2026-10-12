@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/carsome/integrations
+- https://n8n.io/integrations/carsome/
+- https://composio.dev/toolkits/carsome
+- https://monid.ai/tools/carsome
+checked:
+- https://composio.dev/toolkits/carsome
+- https://monid.ai/tools/carsome
+- https://n8n.io/integrations/carsome/
+- https://zapier.com/apps/carsome/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
