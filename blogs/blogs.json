@@ -1,0 +1,18 @@
+{
+  "repo": "carsome",
+  "feeds": [
+    {
+      "source": "https://www.carsome.my/news",
+      "feed_url": "https://www.carsome.my/news/feed",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    },
+    {
+      "source": "https://www.carsome.my/news/feed",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 2,
+  "fetched": "2026-10-10T13:15:00Z"
+}
